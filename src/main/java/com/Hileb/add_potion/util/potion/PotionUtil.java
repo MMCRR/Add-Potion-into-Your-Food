@@ -17,6 +17,7 @@ import vazkii.botania.common.item.brew.ItemBrewBase;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class PotionUtil {
     public static final String NBT_COUNT="com.hileb.ap.nbt.count";
@@ -25,14 +26,7 @@ public class PotionUtil {
         return String.format(NBT_POTION,index);
     }
     public static List<APotion> getFormBasicStack(ItemStack stack){
-        List<APotion> list=new ArrayList<>();
-        if (stack.hasTagCompound() && stack.getTagCompound().hasKey("Potion")){
-            PotionType type=PotionType.getPotionTypeForName(stack.getTagCompound().getString("Potion"));
-            for(PotionEffect effect:type.getEffects()){
-                list.add(new APotion(effect));
-            }
-        }
-        return list;
+        return PotionUtils.getEffectsFromStack(stack).stream().map(APotion::new).collect(Collectors.toList());
     }
     public static List<APotion> getFormOldAPStack(ItemStack stack){
         List<APotion> list=new ArrayList<>();
