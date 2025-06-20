@@ -14,6 +14,8 @@ import net.minecraftforge.fml.common.Loader;
 import vazkii.botania.api.BotaniaAPI;
 import vazkii.botania.api.brew.Brew;
 import vazkii.botania.common.item.brew.ItemBrewBase;
+import net.minecraft.potion.PotionUtils;
+
 
 import java.util.ArrayList;
 import java.util.List;
