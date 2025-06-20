@@ -4,7 +4,11 @@ switch each branch for each version of Minecraft.
 
 ____state____:
 -  _Active_ :
+   + [1.21.x](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/neoforge-1.21.x)
  
+
+
+- _Legacy_:
    + [1.20.4](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.20.4)
  
    + [1.20](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.20)
@@ -14,8 +18,6 @@ ____state____:
    + [1.19.3](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.19.3)
  
    + [1.18.2](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.18.2)
-
-- _Legacy_:
 
    + [1.12.2](https://github.com/Ecdcaeb/Add-Potion-into-Your-Food/tree/1.12.2)
      
