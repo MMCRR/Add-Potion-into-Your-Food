@@ -1,0 +1,22 @@
+{
+  "language": "English",
+  "language.code": "en_us",
+  "language.region": "United States",
+  
+  "itemGroup.add_potion": "Add Potion to Your Food",
+  
+  "block.add_potion.potion_table": "Potion Table",
+  "block.add_potion.potion_factory": "Potion Factory",
+
+  "item.add_potion.food.extra_effects": "Additional Effects",
+
+  "entity.minecraft.villager.add_potion.apothecary": "Apothecary",
+  
+  "container.potion_table": "Potion Table",
+
+  "add_potion.potion_type.default": "%s",
+  "add_potion.potion_type.splash": "Splash %s",
+  "add_potion.potion_type.lingering": "Lingering %s",
+
+  "subtitles.entity.villager.work_apothecary": "Apothecary works"
+}

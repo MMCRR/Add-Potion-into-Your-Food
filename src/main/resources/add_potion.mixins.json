@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "mods.Hileb.add_potion.mixin",
+  "mixins": [
+    "animals.AbstractHorseMixin",
+    "animals.AnimalMixin",
+    "animals.CatMixin",
+    "animals.FoxMixin",
+    "animals.OcelotMixin",
+    "animals.ParrotMixin",
+    "animals.VillagerMixin",
+    "animals.WolfMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "compatibilityLevel": "JAVA_21",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "particle": "add_potion:block/factory",
+    "bottom": "add_potion:block/bottom",
+    "top": "add_potion:block/factory",
+    "side": "add_potion:block/side"
+  }
+}

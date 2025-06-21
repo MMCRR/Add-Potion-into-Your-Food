@@ -1,0 +1,7 @@
+{
+  "values": {
+    "add_potion:apothecary" : {
+      "loot_table": "add_potion:gameplay/hero_of_the_village/apothecary_gift"
+    }
+  }
+}
