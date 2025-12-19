@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 1,
-    "item": "add_potion:potion_factory"
+    "id": "add_potion:potion_factory"
   }
 }
